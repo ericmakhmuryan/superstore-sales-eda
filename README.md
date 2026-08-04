@@ -10,7 +10,7 @@ In this project, I took a look at the Superstore Sales dataset to practice my da
 
 ---
 
-## What I Found Out (Key Takeaways)
+##What I Found Out (Key Takeaways)
 
 * **Mean vs. Median is huge here:** The average (mean) sale is around **$229.85**, but the median sale is only **$54.49**. Why the big gap? The data is super right-skewed—most orders are small everyday purchases, but a few massive orders pull the average way up. Median gives a much better picture of a typical order.
 * **Outliers are high-value B2B orders:** Using the IQR method ($Q3 + 1.5 \times \text{IQR}$), any order over **$498.93** gets flagged as a statistical outlier. That turned out to be **1,167 orders (~11.7% of total volume)**. Instead of deleting them, I kept them because these represent major corporate client orders that bring in serious revenue.
