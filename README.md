@@ -87,3 +87,6 @@ from orders ;
 ```
 
 Ranking order sequences allows us to identify a customer's first purchase versus repeat visits, making it easy to analyze purchase frequency and retention over time.
+
+## Dataset
+* **Source:** [Kaggle Superstore Sales Dataset](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting)
