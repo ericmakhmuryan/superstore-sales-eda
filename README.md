@@ -19,7 +19,7 @@ In this project, I took a look at the Superstore Sales dataset to practice my da
 
 ---
 
-## 🗄️ PostgreSQL Business Analytics
+##  PostgreSQL Business Analytics
 
 After cleaning the data in Python, I pushed the DataFrame directly into PostgreSQL using SQLAlchemy to write advanced business queries.
 
